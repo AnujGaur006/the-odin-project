@@ -10,22 +10,24 @@
         <section class="header" id="header-section">
             <h1>Header Logo</h1>
             <nav id="nav-bar">
-                <ul id="list-item">
-                    <li><a href="one">header link one</a></li>
-                    <li><a href="two">header link two</a></li>
-                    <li><a href="three">header link three</a></li>
+                <ul>
+                    <li><a class='nav-link' href="#one">header link one</a></li>
+                    <li><a class='nav-link' href="#two">header link two</a></li>
+                    <li><a class='nav-link' href="#three">header link three</a></li>
                 </ul>
             </nav>
         </section>
         <section id="one">
-            <div>
+            <div class="main">
+            <div class="main-info">
                 <h2>This website is awesome</h2>
                 <p>This website has some subtext that goes here under the main title. It's similar 
                     font and the color is lower contrast.
                 </p>
                 <button value="Sign up">Sign up</button>
             </div>
-            <img src="" alt=""/>
+            <img class='main-img' src="pic2.jpg" alt="alt-text1"/>
+            </div>
         </section>
         <section id="two">
             <h2 class="header-info">Some random information.</h2>
@@ -48,7 +50,7 @@
                 </figure>
             </div>
         </section>
-        <section class='quote' id="three">
+        <section id="three">
             <blockquote>
                 <p class="quote-text">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling
                     up space, or maybe people will actually read it. Who knows? All I know is that it looks
@@ -57,10 +59,12 @@
                 <footer>-Thor,<cite>God of Thunder</cite></footer>
             </blockquote>
         </section>
-        <section class="">
+        <section class="end">
+        <div>
             <h3>Call to action! It's time!</h3>
             <p>Sign up for product by clicking that button right over there!</p>
-            <button>Sign up</button>
+        </div>
+        <button>Sign up</button>    
         </section>
         <section class="footer">
             <p>Copyright @ The Odin Project 2023<p>
