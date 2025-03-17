@@ -1,0 +1,48 @@
+body {
+    background-color: #f0f0f0;
+}
+
+.grid-container {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping into multiple rows */
+    width: 640px; /* Adjust size based on requirements */
+    height: 640px; /* Adjust size based on requirements */
+    border: 1px solid #333;
+    background-color: #fff;
+}
+
+.grid-item {
+    /* flex: 1 0 calc(100%/8);Flex-grow, Flex-shrink, and Basis */
+    aspect-ratio: 1; /* Ensures square shape */
+    border: 1px solid #ddd; /* Optional for visibility */
+    box-sizing: border-box; /* Prevent padding from affecting size */
+}
+
+#gridsize{
+    margin: 40px 400px;
+    width : 320px;
+    text-align: center;
+
+}
+
+.grid-item:hover {
+    /* background-color: #007BFF;  Change background color to blue */
+    color: white;  /* Change text color to white */
+    transform: scale(1);  /* Slightly enlarge the item */
+    cursor: pointer;  /* Show pointer cursor to indicate interactivity */
+}
+
+.userInput {
+    background-color: #ffffff;      /* White background */
+    padding: 20px;                  /* Padding inside the form */
+    border-radius: 8px;             /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow */
+    text-align: center;             /* Center text inside the form */
+    width: 300px;  
+    margin:20px auto;                 /* Set a fixed width for the form */
+}
+
+#itemCount{
+    padding: auto 20px;
+}
