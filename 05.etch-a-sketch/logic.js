@@ -16,11 +16,11 @@ document.addEventListener("DOMContentLoaded", () => {
             parentElem.appendChild(innerElem);
         }
 
-        const gridItems = document.querySelectorAll(".grid-item");
+        const gridItems = document.querySelectorAll(".grid-item"); 
         gridItems.forEach(item => 
             {
-                let randomColor = '#' + Math.floor(Math.random()*16777215).toString(16);
                 item.addEventListener("mouseenter", () => {
+                    let randomColor = '#' + Math.floor(Math.random()*16777215).toString(16);
                     item.style.backgroundColor = randomColor;
                 });
 
